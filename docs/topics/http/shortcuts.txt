@@ -385,3 +385,16 @@ This example is equivalent to::
         if not my_objects:
             raise Http404("No MyModel matches the given query.")
 
+``make_toast()``
+    ================
+
+    .. function:: make_toast()
+
+    .. versionadded:: 2.2
+
+    Returns ``'toast'``.
+
+    Since this new feature will be in an upcoming release it is also added to the
+    release notes for the next version of Django. Open the release notes for the
+    latest version in ``docs/releases/``, which at time of writing is ``2.2.txt``.
+    Add a note under the "Minor Features" header:
